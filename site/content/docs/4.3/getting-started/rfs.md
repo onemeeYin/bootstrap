@@ -8,7 +8,7 @@ toc: true
 
 ## What is RFS?
 
-Bootstrap's side project [RFS](https://github.com/twbs/rfs) is a unit resizing engine which was initially developed to resize font sizes (hence its abbreviation for Responsive Font Sizes). Nowadays RFS is capable of rescaling basically every value for any css property with units, like `margin`, `padding`, `border-radius` or even `box-shadow`.
+Bootstrap's side project [RFS](https://github.com/twbs/rfs) is a unit resizing engine which was initially developed to resize font sizes (hence its abbreviation for Responsive Font Sizes). Nowadays RFS is capable of rescaling basically every value for any CSS property with units, like `margin`, `padding`, `border-radius` or even `box-shadow`.
 
 The mechanism automatically calculates the appropriate values based on the dimensions of the browser viewport. It will be compiled into `calc()` functions with a mix of `rem` and viewport units to enable the responsive scaling behavior.
 
@@ -83,4 +83,4 @@ In this example we use one of Bootstrap's built-in [responsive breakpoint mixins
 
 ## Extended documentation
 
-RFS is a separate project under the Bootstrap organisation. More about RFS and its configuration can be found on its [GitHub repository](https://github.com/twbs/rfs).
+RFS is a separate project under the Bootstrap organization. More about RFS and its configuration can be found on its [GitHub repository](https://github.com/twbs/rfs).
